@@ -53,6 +53,12 @@ body{
     flex-direction:row-reverse;
     align-items: center;
    }
+   .explore__menu__lists{
+    display:flex;
+    gap:15px;
+    padding-top:20px;
+    padding:0 30px;
+   }
 }
 @media(min-width:1024px){
     .container{
@@ -67,6 +73,12 @@ body{
     }
     .hero__description{
         width:100%;
+    }
+    .explore__menu__lists{
+        gap:25px;
+       }
+    .explore__menu__text{
+       font-size:48px; 
     }
 }
 .hero__image__container{
@@ -88,4 +100,51 @@ body{
     margin:20px 0px;
     color:#1d3557;
 }
+.food__card__image__conatiner{
+    width:100%;
+}
+.food__image{
+    width:100%;
+    border-radius:8px 8px 0 0;
+}
+.food__card{
+    background-color:#F9F9F9 ;
+    
+}
+.food__card__description{
+    padding:15px;
+}
+.explore__menu__text{
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:center;
+    font-size:30px;
+    color:#1d3557;
+    font-weight:800;
+
+}
+#pizza__card{
+    padding-top: -40px;
+    padding-bottom:30px;
+}
+.explore__menu__gradient__bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background-image:linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    z-index:-3;
+    transform:skewY(-5deg);
+
+}
+.explore__menu__container{
+    position:relative;
+    
+}
+
  
